@@ -10,6 +10,7 @@ import WhyChooseUs from "./components/whyChooseus";
 import ContactUs from "./components/contactUs";
 import AboutUs from "./components/AboutUs";
 import CleaningProcess from "./components/cleaningProcess";
+import TestimonialSection from "./components/testimonialsection";
 
 const App: React.FC = () => {
   const { testimonial, about, cleaningProcess, pricing } = useScroll();
@@ -37,6 +38,7 @@ const App: React.FC = () => {
       </div>
 
       <FAQSection />
+      <TestimonialSection />
       <ContactUs />
       <Footer />
     </div>
