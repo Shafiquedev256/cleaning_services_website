@@ -2,7 +2,7 @@ import qualityIcone from "../assets/icones/quality-diamond-svgrepo-com.svg";
 import teamIcone from "../assets/icones/team-svgrepo-com (1).svg";
 import assuredIcone from "../assets/icones/verified-svgrepo-com.svg";
 import techIcone from "../assets/icones/home-svgrepo-com.svg";
-
+import babby from "../assets/mid-shot-baby-searching-drawer.jpg";
 const WhyChooseUs = () => {
   return (
     <>
@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
           </div>
           <div className='flex justify-center items-center w-3/7'>
             <img
-              src='/src/assets/mid-shot-baby-searching-drawer.jpg'
+              src={babby}
               className='w-60 h-60 rounded-full border-2 border-dotted border-blue-700'
             />
           </div>
