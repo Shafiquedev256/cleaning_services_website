@@ -70,7 +70,7 @@ export function Header({
               Pricing
             </span>
 
-            <button className='bg-red-600 w-fit  h-fit p-2 rounded-md '>
+            <button className='bg-blue-600 w-fit  h-fit p-2 rounded-md '>
               Contact us
             </button>
           </div>
