@@ -1,5 +1,5 @@
 import React from "react";
-
+import womanSpraying from "../assets/woman-spraying-windows-posing-with-yellow-rubber-hands.png";
 const HeroSection: React.FC = () => {
   return (
     <section className='bg-blue-500 py-20 flex flex-col md:flex-row-reverse md:items-center text-white font-semibold'>
@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
       <img
-        src='/src/assets/woman-spraying-windows-posing-with-yellow-rubber-hands.png'
+        src={womanSpraying}
         alt='Image by cookie_studio on FreepikImage by cookie_studio on Freepik'
         className='hidden md:w-3/5 md:block'
       />
