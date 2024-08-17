@@ -57,7 +57,7 @@ const CleaningServices: React.FC = () => {
 
   return (
     <section className='py-20 bg-blue-100'>
-      <div className=' px-6'>
+      <div className=' md:px-6 px-2'>
         <h2 className='text-3xl font-bold mb-12 text-center text-gray-800'>
           Commercial Cleaning Services
         </h2>
@@ -65,7 +65,7 @@ const CleaningServices: React.FC = () => {
           {CommercialServices.map((service) => (
             <div
               key={service.description}
-              className=' flex flex-col items-center justify-between relative w-40 md:w-52  bg-white text-white mt-2 rounded-md'
+              className=' flex flex-col items-center justify-between relative w-36 md:w-52  bg-white text-white mt-2 rounded-md'
             >
               <img
                 src={service.imge}
